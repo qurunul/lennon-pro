@@ -62,6 +62,11 @@ python main.py embed "audio_file.wav" "Pesan rahasia" "password123"
 
 # Mengekstrak pesan
 python main.py extract "audio_with_message.wav" "password123"
+
+## Perintah Tambahan
+- `test_psnr <audio_file> <stego_file>`: Hitung PSNR dan MSE untuk evaluasi kualitas audio.
+- `test_robustness <stego_file> <password> <test_type> [--bitrate <value>] [--variance <value>] [--amplitude <value>]`: Uji ketahanan pesan terhadap gangguan (compression, gaussian_noise, white_noise).
+- Opsi `--format <wav/mp3/flac>` pada perintah `embed`: Tentukan format output file stego.
 ```
 
 ## Penjelasan Teknis
