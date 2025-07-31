@@ -158,7 +158,7 @@ class AudioSteganography:
         return results
 
     def embed_message(self, input_file: str, message: str, password: str, output_file: str, 
-                      output_format: str = 'wav') -> dict:
+                        output_format: str = 'wav') -> dict:
         """Menyisipkan pesan ke file audio dan menyimpan hasil."""
         audio_array, sample_rate = self._load_audio(input_file)
         stego_audio = self.embed_lsb(audio_array, message, password)

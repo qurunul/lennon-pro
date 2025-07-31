@@ -27,9 +27,6 @@ steganografi_audio/
 ├── main.py                         # Skrip utama untuk perintah CLI
 ├── setup_vscode.py                 # Skrip untuk mengatur VS Code
 ├── requirements.txt                # Dependensi proyek
-├── batch_test.py                   # Batch embedding dan extraction
-├── batch_quality.py                # Batch analisis kualitas
-├── batch_robustness.py             # Batch pengujian ketahanan
 ├── mos_test.py                     # Pengujian MOS
 ├── generate_results_table.py       # Pembuatan tabel hasil
 ├── .env.example                    # Contoh variabel lingkungan
